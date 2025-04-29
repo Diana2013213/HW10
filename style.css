@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .btn {
+    font-size: 24px;
+    font-weight: 700;
+    background-color: yellow;
+    padding: 10px 20px;
+    margin: 40px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover,
+  .btn:focus {
+    background-color: orange;
+    outline: none;
+  }
+  
+  .text {
+    font-size: 18px;
+    font-style: italic;
+  }
